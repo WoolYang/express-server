@@ -9,7 +9,7 @@ app.get('/normal', function (req, res) {
 });
 
 app.get('/nocors', function (req, res) {
-	var data = { message: "111" };
+	var data = { message: "返回数据但浏览器无法获取" };
 	res.send(data);
 });
 
